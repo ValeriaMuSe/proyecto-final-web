@@ -3,7 +3,6 @@ body {
 }
 
 .accordion__title {
-  font-family: "Poppins";
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
@@ -12,7 +11,6 @@ body {
 }
 
 .accordion__span {
-  font-family: "Poppins";
   font-weight: 500;
   font-size: 8px;
   line-height: 12px;
@@ -21,7 +19,6 @@ body {
 }
 
 .accordion__link {
-  font-family: "Poppins";
   font-weight: 500;
   font-size: 25px;
   line-height: 38px;
@@ -47,7 +44,6 @@ body {
 }
 
 .accordion--link {
-  font-family: "Poppins";
   font-weight: 500;
   font-size: 25px;
   line-height: 38px;
@@ -59,7 +55,6 @@ body {
 }
 
 .search__title {
-  font-family: "Poppins";
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
