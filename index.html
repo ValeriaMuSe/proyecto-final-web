@@ -4,12 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sass/styles.css" />
     <title>Design System</title>
   </head>
@@ -20,22 +17,32 @@
     </section>
 
     <!--Font-->
-    <section>
-      <h1>Tipografía</h1>
-      <div>
-        <h2>Fuente</h2>
-        <p>Poppins</p>
-      </div>
-      <div>
-        <h2>Jerarquía</h2>
-        <p>Title</p>
-        <span>Bold / 100px</span>
-        <p>Subtitles</p>
-        <span>Semibold / 95px y 64px</span>
-        <p>Body</p>
-        <span>Medium / 32px y 25px</span>
-        <p>Description texts</p>
-        <span>Regular / 28px y 13px</span>
+    <section class="fonts">
+      <h1 class="fonts__h1">Tipografía</h1>
+      <div class="fonts--flex">
+        <div class="fonts__div--margin">
+          <h2 class="fonts__h2">Fuente</h2>
+          <p class="fonts-poppins">Poppins</p>
+        </div>
+        <div>
+          <h2 class="fonts__h2">Jerarquía</h2>
+          <div class="fonts--flex">
+            <p class="fonts__p--bold">Title</p>
+            <span class="fonts__span span1">Bold / 100px</span>
+          </div>
+          <div class="fonts--flex">
+            <p class="fonts__p--semibold">Subtitles</p>
+            <span class="fonts__span span2">Semibold / 95px y 64px</span>
+          </div>
+          <div class="fonts--flex">
+            <p class="fonts__p--medium">Body</p>
+            <span class="fonts__span span3">Medium / 32px y 25px</span>
+          </div>
+          <div class="fonts--flex">
+            <p class="fonts__p--regular">Description texts</p>
+            <span class="fonts__span span4">Regular / 28px y 13px</span>
+          </div>
+        </div>
       </div>
     </section>
 
