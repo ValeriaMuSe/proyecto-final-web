@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -24,69 +24,76 @@
       <a href="#">Iniciar Sesión</a>
     </nav>
   </header>
-  <main>
-    <h1>Nuestros cursos</h1>
-    <p>Este es un lugar donde podrás ver cualquier tipo de tema de tu interés ya sea pago o gratis, y podrás aprender de
+  <main class="general-container">
+    <div class="container" >
+    <h1 class="container__title">Nuestros cursos</h1>
+    <p class="container__text">Este es un lugar donde podrás ver cualquier tipo de tema de tu interés ya sea pago o gratis, y podrás aprender de
       grandes profesionales.</p>
-    <section>
-      <a href="#">Todos los temas</a>
-      <a href="#">filtros</a>
-      <form action="search-form " method="get">
-        <input type="search" name="search-form">
+    </div>
+    <section class="navegation">
+      <div class="navigation__btns">
+      <button class="navegation__btn1"> Todos los temas <img src="/images/Vector purple.png" alt=""> </button> 
+     <button class="navegation__btn2">filtros <img src="/images/Vector purple.png" alt=""></button>
+    </div>
+      <form class="navegation__form" action="search-form " method="get" >
+        <input  class="form__search" type="search" name="search-form" >
       </form>
     </section>
-    <section>
-      <div>
-        <div>
-          <img src="../images/instalog.png" alt="imagen about intgram log">
-          <h2>Promociona tu marca
+    <section class="cards">
+      <div class="card-rows">
+        <div class="card-content">
+          <img class="card-content__img" src="../images/instaIcon.png" alt="imagen about intgram log">
+          <h2 class="card-content__title">Promociona tu marca
             en redes sociales</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          <p class="card-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. </p>
-          <button>Marketing</button>
+          <button class="card-content__button">Marketing</button>
         </div>
-        <div>
-          <img src="../images/photography.png" alt="imagen abuot camera">
-          <h2>Fotografía para
+        <div class="card-content">
+          <img class="card-content__img" src="../images/camera.png" alt="imagen abuot camera">
+          <h2 class="card-content__title">Fotografía para
             principiantes</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          <p  class="card-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. </p>
-          <button>Fotografía y Vídeo</button>
+          <button class="card-content__button">Fotografía y Vídeo</button>
         </div>
-        <div>
-          <img src="../images/computer.png" alt="imagen about computer">
-          <h2>Desarrollo Web
+        <div class="card-content">
+          <img class="card-content__img" src="../images/computer.png" alt="imagen about computer">
+          <h2 class="card-content__title">Desarrollo Web
             frontend: HTML y CSS</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          <p  class="card-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. </p>
-          <button>Desarrollo web y mobile</button>
+          <button class="card-content__button">Desarrollo web y mobile</button>
         </div>
       </div>
-      <div>
-        <div>
-          <img src="../images/livingroom.png" alt="imagen about livingroom">
-          <h2>Intro para la Decoración
+      <div class="card-rows">
+        <div class="card-content">
+          <img  class="card-content__img"src="../images/yard.png" alt="imagen about livingroom">
+          <h2 class="card-content__title">Intro para la Decoración
             de interiores</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          <p  class="card-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. </p>
-          <button>Diseño de interiores</button>
+          <button class="card-content__button">Diseño de interiores</button>
         </div>
-        <div>
-          <img src="../images/adobe.png" alt="imagen about adobe icon">
-          <h2>Introducción a crear en Adobe After Effects</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        <div class="card-content">
+          <img  class="card-content__img"src="../images/adobeIcon.png" alt="imagen about adobe icon">
+          <h2 class="card-content__title">Introducción a crear en Adobe After Effects</h2>
+          <p  class="card-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. </p>
-          <button>Animación 3D</button>
+          <button class="card-content__button">Animación 3D</button>
         </div>
-        <div>
-          <img src="../images/letters.png" alt="imagen about letters">
-          <h2>Diseña con Tipografía:
+        <div class="card-content">
+          <img class="card-content__img" src="../images/letters.png" alt="imagen about letters">
+          <h2 class="card-content__title">Diseña con Tipografía:
             Técnicas y aplicación</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          <p  class="card-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. </p>
-          <button>Diseño Gráfico</button>
+          <button class="card-content__button">Diseño Gráfico</button>
         </div>
       </div>
+      <div class="container-butt">
+      <button class="container-butt__last">ver mas <img src="../images/Vector grey .png" alt=""></button>
+    </div>
     </section>
   </main>
 </body>
